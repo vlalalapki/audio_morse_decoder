@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Environment
+.env
+.venv_morse/
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Data
+*.csv
+*.parquet
+*.tsv
+*.xlsx
+*.h5
+*.db
+*.sqlite
+*.opus
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Mypy cache
+.mypy_cache/
+
+# Ruff/Black
+ruff_cache/
+.pytest_cache/
+
+# Docker ()
+*.dockerfile
+docker-compose.override.yml
+
+# Pyproject/Python packaging ()
+*.tar.gz
+*.whl
+
+# Misc
+*.bak
+*.tmp
+
+mels_cache/

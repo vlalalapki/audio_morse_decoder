@@ -1,0 +1,11 @@
+matplotlib
+jupyter
+ipykernel
+ruff
+black
+mypy
+librosa
+pandas
+torchaudio
+flashlight-text
+tqdm
