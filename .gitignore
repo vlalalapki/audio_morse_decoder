@@ -13,6 +13,7 @@ build/
 # Jupyter
 .ipynb_checkpoints/
 notebooks/.ipynb_checkpoints/
+notebooks/models_kaggle.ipynb
 
 # VSCode
 .vscode/
@@ -28,6 +29,7 @@ env/
 *.env
 
 # Data
+data/raw/logbook.txt
 *.csv
 *.parquet
 *.tsv
@@ -60,4 +62,9 @@ docker-compose.override.yml
 *.bak
 *.tmp
 
-mels_cache/
+*_cache/
+
+*.pt
+
+#MlFlow
+mlflow_server/mlartifacts/

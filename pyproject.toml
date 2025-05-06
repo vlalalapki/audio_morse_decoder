@@ -3,6 +3,9 @@ line-length = 88
 
 [tool.ruff]
 line-length = 88
+include = ["*.ipynb"]
+
+[tool.ruff.lint]
 select = ["E", "F", "I"]
 
 [tool.ruff.lint.isort]
